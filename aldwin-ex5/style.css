@@ -1,3 +1,13 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
 .panels {
   min-height: 100vh;
   overflow: hidden;
@@ -86,13 +96,14 @@
 
 .panel p {
   text-transform: uppercase;
-  font-family: 'Amatic SC', cursive;
-  text-shadow: 0 0 4px rgba(0, 0, 0, 0.72), 0 0 14px rgba(0, 0, 0, 0.45);
-  font-size: 2em;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 48px;
+  color: #F6B520;
 }
 
 .panel p:nth-child(2) {
-  font-size: 4em;
+  font-size: 100px;
+  color: #531F80;
 }
 
 .panel.open {
